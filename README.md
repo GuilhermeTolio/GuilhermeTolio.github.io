@@ -1,7 +1,7 @@
 # GuilhermeTolio.github.io
 
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <title>Minha Pagina Maneira</title>
@@ -13,11 +13,8 @@
     </style>
 </head>
 <body>
-<h1>Titulo</h1>
-<h2>Subtitulo</h2>
-<p>Paragrafo</p>
-<p><strong>Paragrafo em negrito</strong></p>
-<p><em>Paragrafo em italico</em></p>
+<h1>Sapo Cego</h1>
+
 <img src="sapo_cego.jpg" alt="nunca viu uma perereca">
 </body>
 </html>
