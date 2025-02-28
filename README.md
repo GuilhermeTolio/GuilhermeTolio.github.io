@@ -4,7 +4,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Minha Pagina Maneira</title>
+    <title>Sapo Cego</title>
     <style>
         img{
             height: 200px;
