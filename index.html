@@ -1,18 +1,151 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Minha Pagina Maneira</title>
-    <style>
-        img{
-            height: 400px;
-            width:  400px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clone de Perfil do GitHub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f8fa;
+      color: #24292f;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .profile-container {
+      background-color: #fff;
+      width: 100%;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-img-container {
+      margin-right: 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .profile-info h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    .profile-info p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .stats {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .stat {
+      margin-right: 30px;
+      text-align: center;
+    }
+
+    .stat h3 {
+      font-size: 16px;
+      color: #586069;
+    }
+
+    .stat p {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .repositories {
+      margin-top: 30px;
+    }
+
+    .repositories h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .repo {
+      margin-bottom: 15px;
+    }
+
+    .repo h3 a {
+      text-decoration: none;
+      color: #0366d6;
+      font-size: 18px;
+    }
+
+    .repo h3 a:hover {
+      text-decoration: underline;
+    }
+
+    .repo p {
+      font-size: 14px;
+      color: #586069;
+    }
+  </style>
 </head>
 <body>
-<h1>Sapo Cego</h1>
-<h2>nunca viu uma perereca</h2>
-<!--<img src="sapo_cego.jpg" alt="nunca viu uma perereca">--!>
+  <div class="profile-container">
+    <header class="profile-header">
+      <div class="profile-img-container">
+        <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Foto de perfil" class="profile-img">
+      </div>
+      <div class="profile-info">
+        <h1>Nome do Usuário</h1>
+        <p>@usuario_github</p>
+        <p>Desenvolvedor Web | Apaixonado por tecnologia e código.</p>
+        <p><strong>Local:</strong> São Paulo, Brasil</p>
+      </div>
+    </header>
+
+    <section class="stats">
+      <div class="stat">
+        <h3>Repositórios</h3>
+        <p>15</p>
+      </div>
+      <div class="stat">
+        <h3>Seguidores</h3>
+        <p>200</p>
+      </div>
+      <div class="stat">
+        <h3>Seguindo</h3>
+        <p>180</p>
+      </div>
+    </section>
+
+    <section class="repositories">
+      <h2>Repositórios</h2>
+      <div class="repo">
+        <h3><a href="#">nome-do-repositorio</a></h3>
+        <p>Descrição do repositório aqui.</p>
+      </div>
+      <div class="repo">
+        <h3><a href="#">outro-repositorio</a></h3>
+        <p>Descrição do repositório aqui.</p>
+      </div>
+      <!-- Adicione mais repositórios conforme necessário -->
+    </section>
+  </div>
 </body>
 </html>
