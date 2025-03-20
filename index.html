@@ -23,16 +23,20 @@
     .profile-container {
       background-color: #fff;
       width: 100%;
-      max-width: 900px;
+      max-width: 1200px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       padding: 20px;
+      display: flex;
+      flex-direction: column;
     }
 
     .profile-header {
       display: flex;
       align-items: center;
       margin-bottom: 20px;
+      justify-content: space-between;
+      width: 100%;
     }
 
     .profile-img-container {
@@ -44,6 +48,10 @@
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
+    }
+
+    .profile-info {
+      flex-grow: 1;
     }
 
     .profile-info h1 {
@@ -58,7 +66,7 @@
 
     .stats {
       display: flex;
-      margin-bottom: 20px;
+      margin-left: 30px;
     }
 
     .stat {
@@ -117,22 +125,21 @@
         <p>Desenvolvedor Web | Apaixonado por tecnologia e código.</p>
         <p><strong>Local:</strong> São Paulo, Brasil</p>
       </div>
+      <div class="stats">
+        <div class="stat">
+          <h3>Repositórios</h3>
+          <p>15</p>
+        </div>
+        <div class="stat">
+          <h3>Seguidores</h3>
+          <p>200</p>
+        </div>
+        <div class="stat">
+          <h3>Seguindo</h3>
+          <p>180</p>
+        </div>
+      </div>
     </header>
-
-    <section class="stats">
-      <div class="stat">
-        <h3>Repositórios</h3>
-        <p>15</p>
-      </div>
-      <div class="stat">
-        <h3>Seguidores</h3>
-        <p>200</p>
-      </div>
-      <div class="stat">
-        <h3>Seguindo</h3>
-        <p>180</p>
-      </div>
-    </section>
 
     <section class="repositories">
       <h2>Repositórios</h2>
